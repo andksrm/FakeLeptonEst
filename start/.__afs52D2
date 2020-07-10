@@ -7,7 +7,7 @@
   Plotter.setDebug(false);
   Plotter.setPrint(true);
   Plotter.setFigureFormat("png");
-  Plotter.setEffDirectory("Efficiencies_Selection_2j3b60");
+  Plotter.setEffDirectory("Efficiencies_Selection_3j1b60");
 
   Plotter.setStylePath("/afs/cern.ch/user/a/akusurma/private/start/AtlasStyle.C");
   Plotter.setStyle(1);
@@ -39,7 +39,7 @@
 
   Plotter.setHistRange(0.01, 1.29);
   Plotter.setRatioRange(0.1, 2.30);
-  Plotter.setOutDir("/afs/cern.ch/user/a/akusurma/private/test_el_2j3b");
+  Plotter.setOutDir("/afs/cern.ch/user/a/akusurma/private/test2");
   
   Plotter.getFiles("/eos/user/t/tdado/ForFakes/1L/mc16e/Temp");
 
