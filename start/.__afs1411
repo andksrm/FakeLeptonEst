@@ -7,14 +7,14 @@
   Plotter.setDebug(false);
   Plotter.setPrint(true);
   Plotter.setFigureFormat("png");
-  Plotter.setEffDirectory("Efficiencies_Selection_2j2b60");
+  Plotter.setEffDirectory("Efficiencies_Selection_1j1b60");
 
   Plotter.setStylePath("/afs/cern.ch/user/a/akusurma/private/start/AtlasStyle.C");
   Plotter.setStyle(1);
   Plotter.drawAtlasLabel(1);
   
-//  TString type = "el";
- TString type = "mu";
+  TString type = "el";
+// TString type = "mu";
 
   Plotter.writeHistFile("Efficiency", true);
   Plotter.setSysSuffix("");
@@ -39,7 +39,7 @@
 
   Plotter.setHistRange(0.01, 1.29);
   Plotter.setRatioRange(0.1, 2.30);
-  Plotter.setOutDir("/afs/cern.ch/user/a/akusurma/private/mu_2j2b60");
+  Plotter.setOutDir("/afs/cern.ch/user/a/akusurma/private/el_1j");
   
   Plotter.getFiles("/eos/user/t/tdado/ForFakes/1L/mc16e/Temp");
 
